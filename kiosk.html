@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animatie kiosk</title>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/kiosk.css">
+    
+</head>
+<body>
+    <div class="logo">
+        <img src="media/logo.gif" height="100px">
+    </div>
+    
+    <video id="video1" class="video-background" autoplay muted>
+        <source src="media/cliffs.mp4" type="video/mp4">
+    </video>
+    <video id="video2" class="video-background" autoplay muted>
+        <source src="media/chikon.mp4" type="video/mp4">
+    </video>
+    <video id="video3" class="video-background" autoplay muted>
+        <source src="media/wales.mp4" type="video/mp4">
+    </video>
+    
+    <div id="naam" class="name-overlay">
+    </div>
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/kiosk.js"></script>
+</body>
+</html>
